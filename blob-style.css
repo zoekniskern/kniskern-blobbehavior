@@ -1,0 +1,17 @@
+/*http://htmlcheats.com/html/resize-the-html5-canvas-dyamically/*/
+html, body {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    padding: 0px;
+    border: 0;
+    overflow: hidden;
+    display: block;
+}
+
+#maincanvas{
+    position: absolute;
+    margin: 0px;
+    left: 0px;
+    top: 0px;
+}
