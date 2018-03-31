@@ -7,5 +7,7 @@ var app = app || {};
 
 window.onload = function(){
     //resize();
+    app.terrain.init();
+    app.main.terrain = app.terrain;
     app.main.init();
 }

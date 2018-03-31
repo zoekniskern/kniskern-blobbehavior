@@ -27,6 +27,7 @@ app.main = {
         play: 1,
         restart: 2
     },
+    terrain: undefined,
     
     //METHODS
     
@@ -40,6 +41,8 @@ app.main = {
         this.ctx = this.canvas.getContext('2d');
         
         this.gameState = this.game_state.start;
+        
+        this.terrain = 
         
         //reset function works as base setting
         this.reset();
